@@ -1,0 +1,104 @@
+.w3-top{
+  color: #cc1414;
+  background-color: #333;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.w3-container{
+    margin: 20px;
+    padding: 20px;
+}
+.w3-content{
+  background-color:#30608a4f
+}
+.w3-bar-item {
+  padding: 12px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ad0c0c;
+}
+.w3-ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.w3-ul li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.w3-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+.w3-button{
+  font: inherit;
+  margin: 0;
+  -webkit-appearance: button;
+  -webkit-text-size-adjust: 100%;
+  font-size: 15px;
+  line-height: 1.5;
+  font-family: "Lato", sans-serif;
+  box-sizing: inherit;
+  vertical-align: middle;
+  overflow: hidden;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  padding: 12px 24px!important;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ad0c0c;
+  float: right;
+  width: auto;
+  border: none;
+  display: block;
+  outline: 0;
+  white-space: normal;
+}
+
+.custom-alert {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #6f0404;
+  padding: 35px;
+  border: 3px solid #0b0512;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+#myButton1 {
+  font-size: 15px; 
+  background-color: #000; 
+  color: #22775b;
+  padding: 12px 24px; 
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
